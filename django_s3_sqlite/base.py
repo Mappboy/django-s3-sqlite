@@ -6,7 +6,7 @@ from os import path
 
 import boto3
 import botocore
-from django.db.backends.sqlite3.base import DatabaseWrapper
+from django.contrib.gis.db.backends.spatialite.base import DatabaseWrapper
 
 log = logging.getLogger(__name__)
 

@@ -1,1 +1,1 @@
-from django.db.backends.base.features import BaseDatabaseFeatures
+from django.contrib.gis.db.backends.spatialite.features import DatabaseFeatures
